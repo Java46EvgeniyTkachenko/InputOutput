@@ -32,6 +32,7 @@ public class Logger {
 		}
 	}
 	
+	
 	public void info(String message) {
 		if(level.compareTo(Level.WARN) < 0) {
 			createLoggerRecord(Level.INFO, message);
