@@ -24,8 +24,7 @@ public class Logger {
 	
 	public void error(String message) {
 		createLoggerRecord(Level.ERROR, message);
-	}
-	
+	}	
 	public void warn(String message) {
 		if(level.compareTo(Level.ERROR) < 0) {
 			createLoggerRecord(Level.WARN, message);

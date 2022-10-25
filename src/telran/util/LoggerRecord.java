@@ -2,7 +2,6 @@ package telran.util;
 
 import java.time.Instant;
 
-
 public class LoggerRecord {
 	public final Instant timestamp;
 	public final String zoneId;
